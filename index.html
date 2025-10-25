@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header>
+        <p><i id="logo" class="fa-solid fa-burger">food</i></p>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cardapio</a></li>
+            <li><a href="#">Avaliações</a></li>
+        </ul>
+
+        <input class="peca" type="button" value="peça aqui">
+         
+
+        <ul id="celular">
+            <li><a href="#">home</a></li>
+            <li><a href="#">cardapio</a></li>
+            <li><a href="#">avaliações</a></li>
+            <input class="peca-phone" type="button" value="peça aqui">
+        </ul>
+        
+        <button class="sai"><i class="fa-solid fa-heart"></i></button>
+         
+        <button onclick="clicou()" class="button-icon"><i class="fa-solid fa-bars"></i></button>
+         
+
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="intro">
+                <h1>o sabor que vai até <span>você</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dicta nam quaerat delectus. </p>
+                <p>blanditiis. Similique, adipisicing elit. Obcaecati dicta nam quaerat delectus. Nulla, blanditiis. Similique </p>
+
+                <div id="contato">
+                    <input type="button" class="ver-cardapio" value="ver cardapio">
+                    <button class="fone"><i id="fone-icon" class="fa-solid fa-phone"></i>71 9 83166433</button>
+                </div>
+
+                <div class="midia">
+                    <ul class="menor-intro">
+                        <li class="item-cont"><i class="fa-brands fa-whatsapp"></i></li>
+                        <li class="item-cont"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="item-cont"><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="src/imagens/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="cardapio">
+            <h2>Cardapio</h2>
+            <h3>Conheça Nossos Sabores</h3>
+
+
+            <div class="lado-a-lado">
+                <div class="pratos">
+                    <i id="mini-coracao" class="fa-solid fa-heart"></i>
+                    <img src="src/imagens/dish.png" alt="">
+                    <div class="dados">
+                        <h3 class="none-prato-titulo">prato um</h3>
+                        <p class="none-prato">lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum sunt debitis doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem dolores impedit commodi doloribus dignissimos ea! Illo possimus labore accusamus quisquam sed quo ex unde atque voluptatem. Facilis, reprehenderit similique?</p>
+                        <div class="divi-preco">
+                            <span class="preco">(+500)</span>
+                            <h4 class="preco">R$ 25,00</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="pratos">
+                    <i id="mini-coracao" class="fa-solid fa-heart"></i>
+                    <img src="src/imagens/dish2.png" alt="">
+                    <div class="dados">
+                        <h3 class="none-prato-titulo">prato dois</h3>
+                        <p class="none-prato">lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum sunt debitis doloribus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia esse quia cum corrupti exercitationem, neque reiciendis, odio eaque possimus aspernatur, quod saepe repudiandae voluptatem minima veniam velit iure error sit.</p>
+                        <div class="divi-preco">
+                            <span class="preco">(+500)</span>
+                            <h4 class="preco">R$ 25,00</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="pratos">
+                    <i id="mini-coracao" class="fa-solid fa-heart"></i>
+                    <img src="src/imagens/dish3.png" alt="">
+                    <div class="dados">
+                        <h3 class="none-prato-titulo">prato três</h3>
+                        <p class="none-prato">lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum sunt debitis doloribus Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sit quia possimus ipsum facilis perferendis dicta illo sequi mollitia? Tenetur magnam harum nisi maiores sint quibusdam quod nam maxime dignissimos?</p>
+                        <div class="divi-preco">
+                            <span class="preco">(+500)</span>
+                            <h4 class="preco">R$ 25,00</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="pratos">
+                    <i id="mini-coracao" class="fa-solid fa-heart"></i>
+                    <img src="src/imagens/dish4.png" alt="">
+                    <div class="dados">
+                        <h3 class="none-prato-titulo">prato quatro</h3>
+                        <p class="none-prato">lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum sunt debitis doloribus Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates labore amet similique sit ab est ex, debitis temporibus animi perspiciatis deleniti placeat quas vero pariatur maiores culpa molestiae aperiam sed?</p>
+                        <div class="divi-preco">
+                            <span class="preco">(+500)</span>
+                            <h4 class="preco">R$ 25,00</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+        function clicou(){
+            if (celular.style.display=='flex'){
+               celular.style.display='none' 
+            }else{
+                celular.style.display='flex'
+            }
+        }
+    </script>
+    
+</body>
+</html>
